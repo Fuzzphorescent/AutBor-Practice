@@ -1,5 +1,5 @@
 def commaCode(L):
-    n = length(L)
+    n = len(L)
     for i in range(n):
         x = input()
         L.append(x)
@@ -10,4 +10,3 @@ def commaCode(L):
                 print(str(L[i]) + ', ', end = '')
             print('and ', end = '')
         print(str(L[0]))
-        
